@@ -61,6 +61,7 @@ do
 	./writer "$WRITEDIR/${username}$i.txt" "$WRITESTR"
 done
 
+chmod +x ./finder.sh
 OUTPUTSTRING=$(./finder.sh "$WRITEDIR" "$WRITESTR")
 
 # remove temporary directories
