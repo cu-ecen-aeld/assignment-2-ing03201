@@ -48,7 +48,7 @@ then
 		exit 1
 	fi
 fi
-if [ -f "writer" ]
+if [ -f "./writer" ]
 then
 	echo "Removing the old writer utility and compiling as a native application"
 	make clean
